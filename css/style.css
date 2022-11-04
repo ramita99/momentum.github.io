@@ -1,0 +1,85 @@
+*{
+    color :white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+ 
+}
+
+body {
+    background-color: beige;
+    background-size: cover;
+    height: 100vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ 
+.hidden {
+    display: none;
+}
+
+.container {
+     
+    margin: 100px auto; padding: 5px 0 15px;
+}
+ 
+.weather{
+    font-size: 20px;
+    text-align: right;
+}
+
+.clock {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    font-size:80px;
+    border: 1px solid white;
+    border-radius: 16px;
+    margin: 10px auto; padding: 5px 0 5px;
+}
+
+.inner {
+    width: 80%; min-width: 320px; max-width: 640px;
+    margin: 10px auto; padding: 5px 0 15px;
+    text-align: center; 
+}
+
+#todo-form {
+    margin: 10px auto; padding: 5px 0 15px;
+    text-align: center; 
+}
+p {
+    font-size:32px;
+}
+
+span {
+    font-size:20px;
+        width: 80%; min-width: 320px; max-width: 640px;
+}
+
+button {
+    color: gray;
+}
+
+input {
+    font-size : 20px;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px 10px 10px 5px;
+}
+
+#login-input {
+    font-size : 30px;
+}
+
+::placeholder {
+    color: beige;
+    text-align: center;
+
+  }
+
+    
+    
+  
